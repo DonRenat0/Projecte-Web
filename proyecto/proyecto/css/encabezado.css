@@ -1,0 +1,230 @@
+*{margin:0px; padding:0px}
+
+
+div#encabezado{
+    width:1080px;
+    height: 64px;
+    margin:0 auto ;
+}
+
+ div#encabezado div#logo{
+    display:block;
+    width: 552px;
+    height: 49px;
+    float: left;
+    border: 2px solid red;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    color: rgb(243, 243, 46);
+    text-shadow: 5px 5px #353211;
+}
+div#encabezado div#logo:hover{
+    display:block;
+    width: 552px;
+    height: 49px;
+    float: left;
+    border: 2px solid red;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    color: rgb(247, 247, 4);
+    text-shadow: 5px 5px #41403d;
+}
+div#Menu{
+    display:block;
+    width: 499px;
+    height: 64px;
+    float:left;
+    margin:0 auto;
+
+}
+div#Menu> div{
+    display: block;
+    float: left;
+    width: 120px;
+    height: 49px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    color: rgb(226, 226, 135);
+    text-shadow: 5px 5px #41403d;
+
+}
+div#Menu> div:hover{
+    display: block;
+    float: left;
+    width: 120px;
+    height: 49px;
+    color: rgb(243, 243, 46);
+    text-shadow: 5px 5px #353211;
+}
+div#Menu> div div{
+    display: none;
+}
+
+
+
+div#Menu> div.parche> div:hover{
+    display: block;
+    position: absolute;
+    top: 64px;
+    width: 120px;
+    height: 64px;
+    background-color: white;
+}
+div#Menu> div.parche:hover> div.ultimo{
+    display: block;
+    position: absolute;
+    top: 64px;
+    width: 120px;
+    height: 64px;
+    color: white;
+
+}
+div#Menu> div.parche> div.ultimo:hover{
+    display: block;
+    position: absolute;
+    top: 64px;
+    width: 120px;
+    height: 64px;
+    background-color: white;
+    color: black;
+
+}
+div#Menu> div.parche:hover> div.penultimo{
+    display: block;
+    position: absolute;
+    top: 128px;
+    width: 120px;
+    height: 64px;
+
+}
+div#Menu> div.parche> div.penultimo:hover{
+    display: block;
+    position: absolute;
+    top: 128px;
+    width: 120px;
+    height: 64px;
+    background-color: white;
+    color: black;
+}
+
+div#Menu> div.merch:hover> div.tazas{
+    display: block;
+    position: absolute;
+    top: 64px;
+    width: 120px;
+    height: 64px;
+
+}
+div#Menu> div.merch> div.tazas:hover{
+    display: block;
+    position: absolute;
+    top: 64px;
+    width: 120px;
+    height: 64px;
+    background-color: white;
+    color: black;
+}
+div#Menu> div.merch:hover> div.camisetas{
+    display: block;
+    position: absolute;
+    top: 128px;
+    width: 120px;
+    height: 64px;
+
+}
+div#Menu> div.merch> div.camisetas:hover{
+    display: block;
+    position: absolute;
+    top: 128px;
+    width: 120px;
+    height: 64px;
+    background-color: white;
+    color: black;
+}
+    div#Menu> div.competitivo:hover> div.lec{
+        display: block;
+        position: absolute;
+        top: 64px;
+        width: 120px;
+        height: 64px;
+    }
+    div#Menu> div.competitivo> div.lec:hover{
+        display: block;
+        position: absolute;
+        top: 64px;
+        width: 120px;
+        height: 64px;
+        background-color: white;
+        color: black;
+        }
+    div#Menu> div.competitivo:hover> div.lck{
+        display: block;
+        position: absolute;
+        top: 128px;
+        width: 120px;
+        height: 64px;
+    }
+    div#Menu> div.competitivo> div.lck:hover{
+        display: block;
+        position: absolute;
+        top: 128px;
+        width: 120px;
+        height: 64px;
+        background-color: white;
+        color: black;
+        }
+        div#Menu> div.campeones:hover> div.sylas{
+            display: block;
+            position: absolute;
+            top: 64px;
+            width: 120px;
+            height: 64px;
+        }
+        div#Menu> div.campeones> div.sylas:hover{
+            display: block;
+            position: absolute;
+            top: 64px;
+            width: 120px;
+            height: 64px;
+            background-color: white;
+            color: black;
+        }
+        div#Menu> div.campeones:hover> div.ezreal{
+            display: block;
+            position: absolute;
+            top: 128px;
+            width: 120px;
+            height: 64px;
+        }
+        div#Menu> div.campeones> div.ezreal:hover{
+            display: block;
+            position: absolute;
+            top: 128px;
+            width: 120px;
+            height: 64px;
+            background-color: white;
+            color: black;
+                }
+        div#Menu> div.campeones:hover> div.yi{
+            display: block;
+            position: absolute;
+            top: 192px;
+            width: 120px;
+            height: 64px;
+        }
+        div#Menu> div.campeones> div.yi:hover{
+            display: block;
+            position: absolute;
+            top: 192px;
+            width: 120px;
+            height: 64px;
+            background-color: white;
+            color: black;
+                }
+

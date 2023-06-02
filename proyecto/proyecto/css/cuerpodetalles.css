@@ -1,0 +1,63 @@
+div#cuerpo{
+    display: block;
+    width: 1170px;
+
+}
+
+
+div#cuerpo>div.fotocampeon{
+display: block;
+width: 570px;
+height: 770px;
+margin: 20px;
+float: left;
+}
+
+div#cuerpo>div.derecha{
+    display: block;
+    width: 500px;
+    height: 770px;
+    margin: 20px;
+    float: left;
+ }
+
+div.tituloapodo{
+    display: block;
+    margin: 10px;
+    height: 40px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+div.descripcion{
+    display: block;
+    margin: 10px;
+    height: 250px;
+}
+
+div.tablacampeon{
+    margin: 10px;
+}
+
+div.tablacampeon>div{
+height: 40px;
+}
+div.informacion{
+    display: block;
+    height: 25px;
+    width: 65px;
+    margin: 40px;
+    border: 1px solid blue;
+    float: left;
+
+}
+div.volver{
+    display: block;
+    height: 25px;
+    width: 65px;
+    margin: 40px;
+    border: 1px solid red;
+    float: right;
+
+}
+

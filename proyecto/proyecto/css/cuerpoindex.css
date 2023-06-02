@@ -1,0 +1,68 @@
+*{margin:0px; padding:0px}
+
+div#galeriacontenido{
+    width:1080px;
+    border: 1px solid yellow;
+    margin:0 auto ;
+    display: block;
+    height: 360px;
+
+}
+div#galeriacontenido>div#galeria{
+    display:block;
+    width: 385px;
+    height: 350px;
+    float: left;
+
+}
+
+div#galeriacontenido>div#ultimop{
+    display:block;
+    width: 300px;
+    height: 350px;
+    float: left;
+}
+div#galeriacontenido>div.login{
+    display:block;
+    width: 305px;
+    height: 350px;
+    float: left;
+    border: 1px solid yellow;
+    padding-left: 70px;
+
+}
+div.login a{
+    display: block;
+    border: 1px solid red;
+    text-decoration: none;
+    color: rgb(243, 243, 46);
+    text-shadow: 5px 5px #353211;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top:10px;
+}
+
+div.contenido{
+    width: 1080px;
+    border: 1px solid pink;
+    display: block;
+    height: 570px;
+    margin-left: 40px;
+    padding-left: 15px;
+    margin-bottom: auto;
+}
+
+div.contenido>div{
+display:block;
+width:250px;
+height: 280px;
+border: 1px solid blue;
+float: left;
+padding: auto;
+margin: 5px;
+background-image: url("https://picsum.photos/250/280");
+
+}
